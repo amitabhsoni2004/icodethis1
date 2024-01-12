@@ -13,7 +13,7 @@ body {
     height: 250px;
     width: 100vw;
     background-color: white;
-    margin: 130px 0px 10px 300px;
+    margin: 130px 0px 10px 365px;
 }
 
 .sec2 {
@@ -39,7 +39,7 @@ p {
     gap: 20px;
     position: fixed;
     top: 223px;
-    left: 302px;
+    left: 366px;
     margin-top: 60px;
 }
 .card{
@@ -95,7 +95,7 @@ button{
     padding: 15px 40px;
     position: relative;
     top: 170px;
-    left: 900px;
+    left: 961px;
     
     background-color: transparent;
     
@@ -110,7 +110,7 @@ button{
     padding: 11px 20px;
     position: relative;
     top: 174px;
-    left: 893px;
+    left: 955px;
     background-color: transparent;
     color: white;
     font-size: 17px;
