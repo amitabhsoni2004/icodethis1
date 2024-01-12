@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.sec1 {
+    height: 250px;
+    width: 100vw;
+    background-color: white;
+    margin: 130px 0px 10px 300px;
+}
+
+.sec2 {
+    height: 325px;
+    width: 100vw;
+    background-color: pink;
+    /* background: linear-gradient(#e66465, #9198e5); */
+    background: linear-gradient(#ffb6b6,  #e66465);
+   
+}
+
+h1 {
+    font-weight: 700;
+    color: rgb(54, 53, 53);
+}
+
+p {
+    font-size: 14px;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: fixed;
+    top: 223px;
+    left: 302px;
+    margin-top: 60px;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+    width: 270px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+}
+.card1 img{
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(204, 186, 186) ;
+    border-radius: 50px;
+}
+button{
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 12px  50px;
+    background-color: white;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.bord1:hover{
+    border: 2px solid green;
+}
+.bord2:hover{
+    border: 2px solid rgb(230, 152, 165);
+}
+.bord3:hover{
+    border: 2px solid goldenrod;
+}
+.btn1:hover{
+    color: white;
+    background-color: green;
+}
+.btn2:hover{
+    color: white;
+    background-color: rgb(233, 147, 162);
+}
+.btn3:hover{
+    color: white;
+    background-color: goldenrod;
+}
+.btn4{
+    
+    padding: 15px 40px;
+    position: relative;
+    top: 170px;
+    left: 900px;
+    
+    background-color: transparent;
+    
+    color: white;
+    font-size: 17px;
+    border: 2px solid white;
+}
+.btnhover:hover{
+    background-color: blue;
+}
+.btn5{
+    padding: 11px 20px;
+    position: relative;
+    top: 174px;
+    left: 893px;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    border: 2px solid white;
+}
+.plus{
+   position: relative;
+   left: 790px;
+   bottom: 30px;
+   padding: 10px 15px;
+}
+.plus:hover{
+    background-color: rgb(160, 160, 221);
+}
+.sec1 div{
+    font-size: 200px;
+    margin: 0;
+    color: rgb(185, 182, 182);
+    position: absolute;
+    top: 50px;
+    
+}
