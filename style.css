@@ -12,7 +12,7 @@ body {
 .sec1 {
     height: 250px;
     width: 100vw;
-    background-color: white;
+    /* background-color: white; */
     margin: 130px 0px 10px 365px;
 }
 
@@ -131,6 +131,7 @@ button{
     color: rgb(185, 182, 182);
     position: absolute;
     top: 50px;
+    z-index: -5;
     
 }
 @media screen and (max-width:1210px) {
